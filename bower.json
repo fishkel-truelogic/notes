@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "0.0.0",
+  "authors": [
+    "Leonel Dan Fishkel <lfishkel@truelogicsoftware.com>"
+  ],
+  "description": "notas locas",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+    "angular": "1.4.x",
+    "bootstrap": "~3.1.1",
+    "angular-route": "1.4.x",
+    "angular-resource": "1.4.x"
+  }
+}
