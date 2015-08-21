@@ -1,7 +1,5 @@
 <div class="noteList-container" ng-controller="noteListCtrl">
 	<div ng-repeat="note in notes">
-		<div  class="note-container">
-			{{note}}
-		</div>
+		<div ng-include="'partials/note.html'"></div>
 	</div>
 </div>
