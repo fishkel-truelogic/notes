@@ -11,7 +11,6 @@ notesControllers.controller('homeCtrl',
 		$scope.phones = Phone.query();
 		$scope.orderProp = 'age';
 		*/
-		$scope.test = "chupala gato";
 		}
 	]
 );
@@ -21,10 +20,28 @@ notesControllers.controller('profileCtrl',
 		'$scope',
 
 		function($scope) {
-		/*
-		$scope.phones = Phone.query();
-		$scope.orderProp = 'age';
-		*/
 		}
 	]
 );
+
+notesControllers.controller('optionsCtrl', 
+	[
+		'$scope',
+
+		function($scope) {
+		}
+	]
+);
+
+notesControllers.controller('noteListCtrl', 
+	[
+		'$scope',
+
+		function($scope) {
+
+			$scope.notes = [1,2,3,4,5,6];
+		
+		}
+	]
+);
+
